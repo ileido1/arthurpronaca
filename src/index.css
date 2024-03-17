@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bergen Sans';
+  src: url('../src/assets/fonts/BergenSans.eot');
+  src: local('Bergen Sans'), local('BergenSans'),
+      url('../src/assets/fonts/BergenSans.eot?#iefix') format('embedded-opentype'),
+      url('../src/assets/fonts/BergenSans.woff2') format('woff2'),
+      url('../src/assets/fonts/BergenSans.woff') format('woff'),
+      url('../src/assets/fonts/BergenSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bergen Sans';
+  src: url('../src/assets/fonts/BergenSans-Bold.eot');
+  src: local('Bergen Sans Bold'), local('BergenSans-Bold'),
+      url('../src/assets/fonts/BergenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../src/assets/fonts/BergenSans-Bold.woff2') format('woff2'),
+      url('../src/assets/fonts/BergenSans-Bold.woff') format('woff'),
+      url('../src/assets/fonts/BergenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bergen Sans Semi';
+  src: url('../src/assets/fonts/BergenSans-SemiBold.eot');
+  src: local('Bergen Sans Semi Bold'), local('BergenSans-SemiBold'),
+      url('../src/assets/fonts/BergenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../src/assets/fonts/BergenSans-SemiBold.woff2') format('woff2'),
+      url('../src/assets/fonts/BergenSans-SemiBold.woff') format('woff'),
+      url('../src/assets/fonts/BergenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Bergen Sans', sans-serif;
+}
+.css-14q0nk6-MuiSlider-thumb::before {
+ box-shadow: none !important;
+}
