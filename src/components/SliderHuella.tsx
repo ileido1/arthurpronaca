@@ -98,7 +98,7 @@ const HuellaSlider = styled(Slider)(({ theme }) => ({
       <SliderThumb {...other}>
         {children}
         <img src={huellavector} width={40} height={40} />
-        <div className="absolute left-10 w-28 text-brown font-bold text-[8px] md:text-sm">
+        <div className="absolute left-9 w-28 text-brown font-bold text-[8px] md:text-sm">
           <span>{datePercentage}</span>
         </div>
       </SliderThumb>
