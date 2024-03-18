@@ -6,13 +6,13 @@ export function Footer() {
   return (
     <footer className="footer footer-center px-10 py-3 bg-grey flex flex-row justify-between items-end md:items-center gap-8">
       <div className=" flex flex-row gap-2 md:gap-8">
-        <a href="" target="_blank" rel="noreferrer">
+        <a href=" https://www.instagram.com/tqpets_by_pronaca/" target="_blank" rel="noreferrer">
           <img src={ig} alt="instagram"  />
         </a>
-        <a href="" target="_blank" rel="noreferrer">
+        <a href=" https://www.facebook.com/TqPets/" target="_blank" rel="noreferrer">
           <img src={fb} alt="facebook"  />
         </a>
-        <a href="" target="_blank" rel="noreferrer">
+        <a href=" https://www.tiktok.com/@tqpets_by_pronaca" target="_blank" rel="noreferrer">
           <img src={tk} alt="tiktok"   />
         </a>
       </div>
