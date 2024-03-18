@@ -98,7 +98,7 @@ const HuellaSlider = styled(Slider)(({ theme }) => ({
       <SliderThumb {...other}>
         {children}
         <img src={huellavector} width={40} height={40} />
-        <div className="absolute left-9 w-28 text-brown font-bold text-[8px] md:text-sm">
+        <div className="absolute left-9 w-28 text-brown font-bold text-[8px] md:text-sm uppercase">
           <span>{datePercentage}</span>
         </div>
       </SliderThumb>
@@ -107,7 +107,7 @@ const HuellaSlider = styled(Slider)(({ theme }) => ({
   return (
     <div className="my-10  ">
       
-      <div className="flex flex-row h-full justify-center items-end md:items-center">
+      <div className="flex flex-row h-full justify-center items-end md:items-end">
         <ResponsiveBox >
           <HuellaSlider
             orientation="vertical"

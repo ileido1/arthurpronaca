@@ -13,6 +13,7 @@ export default {
   },
   colors: {
    brown: '#523621',
+   lightbrown: '#85686C',
    red:'#E91D24',
    white:'#FFFFFF',
    grey: '#EBEBEB',

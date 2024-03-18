@@ -27,7 +27,8 @@ export function MapaDonaciones() {
             />
             <Marker position={[-0.1817244,-78.4803536]} icon={DefaultIcon}>
               <Popup>
-              Almacén Pronaca
+                <a href="https://www.google.com/maps/place/Almac%C3%A9n+Pronaca/@-0.1817244,-78.4803536,15z/data=!4m2!3m1!1s0x0:0x1fda97d320d48b27?sa=X&ved=1t:2428&ictx=111"> Almacén Pronaca</a>
+             
               </Popup>
             </Marker>
             <Marker position={[-0.2765239,-78.5331563]} icon={DefaultIcon}>

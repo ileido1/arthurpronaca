@@ -7,7 +7,7 @@ function Procanlogo() {
       height="72"
       fill="none"
       viewBox="0 0 144 72"
-      className=" hidden md:block"
+      className=" hidden md:block "
     >
       <path
         fill="url(#paint0_linear_138_6)"
