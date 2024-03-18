@@ -2,7 +2,7 @@ import arthurpelicula from "../assets/images/arthurpelicula.png";
 import pelicula from "../assets/images/pelicula.png";
 import union from "../assets/images/Union.png";
 import ModalVideo from "./ModalVideo";
-import  trailer from "../assets/images/trailer.jpg";
+import  trailer from "../assets/images/trailer1.jpg";
 import promo from "../assets/images/promo.png";
 export function VideoSection() {
   return (
@@ -21,7 +21,7 @@ export function VideoSection() {
             en esta historia
           </p>
         </div>
-        <div className="hidden md:flex items-center flex-col justify-center">
+        <div className="hidden md:flex items-center flex-col justify-start mt-10">
           <p className="font-bold text-3xl  text-brown  text-left">
             Mira el trailer de la <br />
             película inspirada <br />

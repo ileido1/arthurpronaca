@@ -20,7 +20,7 @@ export default function MyModal({img , urlvideo}: MyModalProps) {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <img src={img} alt="" onClick={openModal} className="cursor-pointer" />
+        <img src={img} alt="" onClick={openModal} className="cursor-pointer rounded-xl" />
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>
